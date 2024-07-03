@@ -1,0 +1,34 @@
+package collection_practice;
+
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.Vector;
+
+public class Java_cursor {
+
+	public static void main(String[] args) {
+
+		Vector a=new Vector();
+		a.add(23);
+		a.add(67);
+		a.add("fjf");
+	a.add(null);
+	a.add(67);
+	Enumeration e=a.elements();
+	while(e.hasMoreElements())
+			{
+		System.out.println(e.nextElement());
+		
+			}
+	System.out.println("/////////////////////////////////////////////////////");
+	ArrayList a1=new ArrayList();
+	a1.addAll(a);
+	a1.add("ayaz");
+	System.out.println(a1);
+	
+	
+	
+	
+	}
+
+}

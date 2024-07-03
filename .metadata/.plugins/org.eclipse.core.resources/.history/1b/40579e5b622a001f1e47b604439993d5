@@ -1,0 +1,15 @@
+package practice_selenium;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Dimension {
+
+	public static void main(String[] args)
+	{
+ChromeDriver driver =new ChromeDriver();
+driver.get("http://www.google.com");
+driver.manage().window().maximize();
+
+	}
+
+}

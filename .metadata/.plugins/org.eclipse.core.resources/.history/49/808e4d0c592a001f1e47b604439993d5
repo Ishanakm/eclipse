@@ -1,0 +1,27 @@
+package collection_practice;
+
+import java.util.ArrayList;
+
+public class Program_1 {
+
+	public static void main(String[] args) 
+	{
+		ArrayList a=new ArrayList();
+       a. add(34);
+       a.addAll(a);
+       a.add("star");
+       a.add('d');
+       a.add(null);
+       a.add("star");
+       System.out.println(a);
+       
+       a.remove('d');
+       a.removeAll(a);
+       a.contains(a);
+       System.out.println(a);
+
+       
+        
+	}
+
+}

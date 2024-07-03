@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-07T17:42:21 IST" name="Suite" finished-at="2024-06-07T17:43:57 IST" duration-ms="95691">
+    <groups>
+    </groups>
+    <test started-at="2024-06-07T17:42:21 IST" name="Testing in chrome" finished-at="2024-06-07T17:43:02 IST" duration-ms="40309">
+      <class name="selenium_viva.Program_1">
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:selenium_viva.Program_1@6cd28fa7]" started-at="2024-06-07T17:42:22 IST" name="browser" finished-at="2024-06-07T17:43:01 IST" duration-ms="39560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="name()[pri:0, instance:selenium_viva.Program_1@6cd28fa7]" started-at="2024-06-07T17:43:01 IST" name="name" finished-at="2024-06-07T17:43:02 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+      </class> <!-- selenium_viva.Program_1 -->
+    </test> <!-- Testing in chrome -->
+    <test started-at="2024-06-07T17:43:03 IST" name="Testing in edge" finished-at="2024-06-07T17:43:57 IST" duration-ms="54239">
+      <class name="selenium_viva.Program_1">
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:selenium_viva.Program_1@2e3967ea]" started-at="2024-06-07T17:43:03 IST" name="browser" finished-at="2024-06-07T17:43:57 IST" duration-ms="53716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="name()[pri:0, instance:selenium_viva.Program_1@2e3967ea]" started-at="2024-06-07T17:43:57 IST" name="name" finished-at="2024-06-07T17:43:57 IST" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+      </class> <!-- selenium_viva.Program_1 -->
+    </test> <!-- Testing in edge -->
+  </suite> <!-- Suite -->
+</testng-results>

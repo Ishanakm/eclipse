@@ -1,0 +1,16 @@
+package collection_practice.copy;
+
+import java.util.ArrayList;
+
+public class Vector 
+{
+
+	public static void main(String[] args) 
+	{
+		ArrayList a=new ArrayList();
+		a.add(a);
+		Vector v1=new Vector();
+		v1.a
+	}
+
+}

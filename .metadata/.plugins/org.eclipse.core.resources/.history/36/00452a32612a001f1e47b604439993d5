@@ -1,0 +1,57 @@
+package collection_practice;
+
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.Iterator;
+import java.util.ListIterator;
+import java.util.Vector;
+
+public class Java_cursor {
+
+	public static void main(String[] args) {
+
+		Vector a=new Vector();
+		a.add(23);
+		a.add(67);
+		a.add("fjf");
+	a.add(null);
+	a.add(67);
+	Enumeration e=a.elements();
+	while(e.hasMoreElements())
+			{
+		System.out.println(e.nextElement());
+		
+			}
+	System.out.println("/////////////////////////////////////////////////////");
+	
+	
+	ArrayList a1=new ArrayList();
+	a1.addAll(a);
+	a1.add("ayaz");
+	System.out.println(a1);
+	Iterator i=a1.iterator();
+	while(i.hasNext())
+	{
+		System.out.println(i.next());
+	}
+	i.remove();
+	System.out.println(a1);
+	
+	System.out.println("//////////////////////////////////////////////////////////");
+	ListIterator i1=a1.listIterator();
+	i1.add("km");
+	i1.add("ishana");
+	System.out.println(i1);
+	while(i1.hasNext())
+	{
+		System.out.println(i1.nextIndex());
+		System.out.println(i1.next());
+	}
+	while(i1.hasPrevious())
+	{
+		System.out.println(i1.previousIndex());
+		System.out.println(i1.previous());
+	}
+	}
+
+}

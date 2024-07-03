@@ -1,0 +1,24 @@
+package collection_practice;
+
+import java.util.Arrays;
+
+public class Java_program {
+
+	static
+	{
+		System.out.println("sib");
+	
+	}
+	{
+		
+		System.out.println("iib");
+	}
+	public static void main(String[] args) 
+	{
+      String s1="ishana 123 ^%";
+      String[] s2=s1.split(" ");
+     System.out.println( Arrays.toString(s2));
+      System.out.println(s2[0]);
+    		  }
+
+}

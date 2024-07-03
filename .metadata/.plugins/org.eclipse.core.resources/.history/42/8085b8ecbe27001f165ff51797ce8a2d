@@ -1,0 +1,32 @@
+package Amazon_project.GTM_projects;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.io.FileHandler;
+import org.testng.IRetryAnalyzer;
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+
+public class Retry_class implements IRetryAnalyzer
+{
+	int initial_count=0;
+	int total_count=1;
+	@Override
+	public boolean retry(ITestResult result)
+	{
+		if(initial_count<total_count)
+		{
+			initial_count++;
+		return true;
+		}
+		return false;
+	}
+
+}

@@ -1,0 +1,10 @@
+package collection_practice;
+
+public class Stack_1 {
+
+	public static void main(String[] args) {
+    Stack s1=new Stack();
+     
+	}
+
+}

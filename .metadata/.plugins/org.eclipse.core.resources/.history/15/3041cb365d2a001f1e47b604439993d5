@@ -1,0 +1,12 @@
+package collection_practice;
+import java.util.Vector;
+public class Vector_practice
+{
+
+	public static void main(String[] args) 
+	{
+		Vector v = new Vector();
+		v.addElement(88);
+	}
+
+}

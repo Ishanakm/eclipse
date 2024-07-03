@@ -1,0 +1,27 @@
+package collection_practice;
+import java.util.Vector;
+public class Vector_practice
+{
+
+	public static void main(String[] args) 
+	{
+		Vector v = new Vector();
+		v.addElement(88);
+		System.out.println(v.firstElement());
+		System.out.println(v.lastElement());
+		v.addElement("rina");
+		v.addElement("rina");
+		v.addElement("9584");
+		v.addElement(null);
+		v.addElement(0.0);
+		v.addElement('f');
+	System.out.println(v);
+	v.remove(4);
+	System.out.println(v.removeElement("rina"));
+	v.removeAllElements();
+	System.out.println(v.capacity());
+	
+	
+	}
+
+}

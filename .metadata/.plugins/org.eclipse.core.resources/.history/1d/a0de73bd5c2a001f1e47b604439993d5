@@ -1,0 +1,24 @@
+package collection_practice;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class Vector 
+{
+
+	public static void main(String[] args) 
+	{
+		Vector v1=new Vector();
+		
+		LinkedList l1=new LinkedList();
+		l1.addFirst(34);
+		l1.addLast("rt");
+		l1.peekFirst();
+		System.out.println(l1.peekLast());
+		l1.pollFirst();
+		
+	
+System.out.println(l1);	
+	}
+
+}

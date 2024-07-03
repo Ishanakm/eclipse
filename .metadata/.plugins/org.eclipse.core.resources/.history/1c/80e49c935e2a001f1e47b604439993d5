@@ -1,0 +1,15 @@
+package collection_practice;
+
+import java.util.Stack;
+
+public class Stack_1 {
+
+	public static void main(String[] args) {
+    Stack s1=new Stack();
+     s1.push("mango");
+    System.out.println( s1.peek());
+     System.out.println(s1.pop());
+     System.out.println(s1);
+	}
+
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [crossbrowserSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SystemtestcaseTest(failed)">
+    <classes>
+      <class name="cross_browse_testing.Search_click_addtocart">
+        <methods>
+          <include name="add_cart"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- cross_browse_testing.Search_click_addtocart -->
+      <class name="cross_browse_testing.Search_click_1stproduct">
+        <methods>
+          <include name="quit"/>
+          <include name="search"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- cross_browse_testing.Search_click_1stproduct -->
+      <class name="cross_browse_testing.Serching_product">
+        <methods>
+          <include name="search"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- cross_browse_testing.Serching_product -->
+    </classes>
+  </test> <!-- SystemtestcaseTest(failed) -->
+</suite> <!-- Failed suite [crossbrowserSuite] -->

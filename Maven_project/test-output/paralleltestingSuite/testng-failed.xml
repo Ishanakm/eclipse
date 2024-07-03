@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [paralleltestingSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="testinginEdge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="parallel_testing.Testcase3">
+        <methods>
+          <include name="quit"/>
+          <include name="launch"/>
+          <include name="hoverover"/>
+        </methods>
+      </class> <!-- parallel_testing.Testcase3 -->
+      <class name="parallel_testing.Testcase5">
+        <methods>
+          <include name="google"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- parallel_testing.Testcase5 -->
+      <class name="parallel_testing.Tesycase4">
+        <methods>
+          <include name="amazon"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- parallel_testing.Tesycase4 -->
+      <class name="parallel_testing.Testcase2">
+        <methods>
+          <include name="google"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- parallel_testing.Testcase2 -->
+      <class name="parallel_testing.Testcase1">
+        <methods>
+          <include name="quit"/>
+          <include name="launch"/>
+          <include name="GTM"/>
+        </methods>
+      </class> <!-- parallel_testing.Testcase1 -->
+    </classes>
+  </test> <!-- testinginEdge(failed) -->
+  <test thread-count="5" parallel="tests" name="testinginchrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="parallel_testing.Testcase3">
+        <methods>
+          <include name="quit"/>
+          <include name="launch"/>
+          <include name="hoverover"/>
+        </methods>
+      </class> <!-- parallel_testing.Testcase3 -->
+      <class name="parallel_testing.Testcase5">
+        <methods>
+          <include name="google"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- parallel_testing.Testcase5 -->
+      <class name="parallel_testing.Tesycase4">
+        <methods>
+          <include name="amazon"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- parallel_testing.Tesycase4 -->
+      <class name="parallel_testing.Testcase2">
+        <methods>
+          <include name="google"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- parallel_testing.Testcase2 -->
+      <class name="parallel_testing.Testcase1">
+        <methods>
+          <include name="quit"/>
+          <include name="launch"/>
+          <include name="GTM"/>
+        </methods>
+      </class> <!-- parallel_testing.Testcase1 -->
+    </classes>
+  </test> <!-- testinginchrome(failed) -->
+  <test thread-count="5" parallel="tests" name="testinginfirefox(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="parallel_testing.Testcase3">
+        <methods>
+          <include name="quit"/>
+          <include name="launch"/>
+          <include name="hoverover"/>
+        </methods>
+      </class> <!-- parallel_testing.Testcase3 -->
+      <class name="parallel_testing.Testcase5">
+        <methods>
+          <include name="google"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- parallel_testing.Testcase5 -->
+      <class name="parallel_testing.Tesycase4">
+        <methods>
+          <include name="amazon"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- parallel_testing.Tesycase4 -->
+      <class name="parallel_testing.Testcase2">
+        <methods>
+          <include name="google"/>
+          <include name="quit"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- parallel_testing.Testcase2 -->
+      <class name="parallel_testing.Testcase1">
+        <methods>
+          <include name="quit"/>
+          <include name="launch"/>
+          <include name="GTM"/>
+        </methods>
+      </class> <!-- parallel_testing.Testcase1 -->
+    </classes>
+  </test> <!-- testinginfirefox(failed) -->
+</suite> <!-- Failed suite [paralleltestingSuite] -->

@@ -1,0 +1,26 @@
+package java_viva;
+
+import java.util.Enumeration;
+import java.util.Vector;
+
+public class Program3 {
+
+	public static void main(String[] args) 
+	{
+  Vector v1= new Vector();
+   v1.addElement(34);
+   v1.addElement(45);
+   v1.addElement('d');
+   v1.addElement("isha");
+  
+   Enumeration e=v1.elements();
+   
+   while (e.hasMoreElements())
+   {
+	   System.out.println( e.nextElement());
+	   
+   }
+   
+	}
+
+}
